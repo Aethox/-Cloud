@@ -62,7 +62,11 @@ article, p, .myDiv{
     align-items: center;
 }
 
-.btn_usuarios{
+.btn_usuarios,.btn_cargar,.btn_prepro,.btn_graf{
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 120px;
     height: 40px;
     background-color: #D9D9D9;
@@ -76,47 +80,21 @@ article, p, .myDiv{
     color: white;
 }
 
-.btn_cargar{
-    width: 120px;
-    height: 40px;
-    background-color: #D9D9D9;
-    color: black;
-    border: #2A2573;
-    border-radius: 7% 7% 7% 7%;
-    cursor: pointer;
-}
 .btn_cargar:hover{
     background-color: #2A2573;
     color: white;
 }
 
-.btn_prepro{
-    width: 120px;
-    height: 40px;
-    background-color: #D9D9D9;
-    color: black;
-    border: #2A2573;
-    border-radius: 7% 7% 7% 7%;
-    cursor: pointer;
-}
 .btn_prepro:hover{
     background-color: #2A2573;
     color: white;
 }
 
-.btn_graf{
-    width: 120px;
-    height: 40px;
-    background-color: #D9D9D9;
-    color: black;
-    border: #2A2573;
-    border-radius: 7% 7% 7% 7%;
-    cursor: pointer;
-}
 .btn_graf:hover{
     background-color: #2A2573;
     color: white;
 }
+
 .central {
     background-color: #2A2573;
     width: auto;
