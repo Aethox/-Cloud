@@ -2,6 +2,7 @@ body{
     background-color: #2A2573;
     font-family: 'Droid Sans', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
+    margin: 0;
 }
 article, p, .myDiv{
     font-size: 1.25em;
@@ -32,41 +33,171 @@ article, p, .myDiv{
     width: auto;
     height: 150px;
     position: relative;
+    text-align: center;
 }
 
 .crcimg{
     width:270px;
     height:100px;
     left: 8px;
-    position: absolute;
-    left: 250px;
-    top: 25px;  
 }
 
 .panel_control{
     background-color: #D9D9D9;
     width: auto;
-    height: 80px;
-    position: relative;
+    height: 70px;
+    text-align: center;
+    align-items: center;
 }
 
-.central{
+.btn_usuarios{
+    width: 120px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: black;
+    border: #2A2573;
+    border-radius: 7% 7% 7% 7%;
+    cursor: pointer;
+}
+.btn_usuarios:hover{
+    background-color: #2A2573;
+    color: white;
+}
+
+.btn_cargar{
+    width: 120px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: black;
+    border: #2A2573;
+    border-radius: 7% 7% 7% 7%;
+    cursor: pointer;
+}
+.btn_cargar:hover{
+    background-color: #2A2573;
+    color: white;
+}
+
+.btn_prepro{
+    width: 120px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: black;
+    border: #2A2573;
+    border-radius: 7% 7% 7% 7%;
+    cursor: pointer;
+}
+.btn_prepro:hover{
+    background-color: #2A2573;
+    color: white;
+}
+
+.btn_graf{
+    width: 120px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color: black;
+    border: #2A2573;
+    border-radius: 7% 7% 7% 7%;
+    cursor: pointer;
+}
+.btn_graf:hover{
+    background-color: #2A2573;
+    color: white;
+}
+.central {
     background-color: #2A2573;
     width: auto;
     height: 900px;
     position: relative;
     padding: 5px;
+    display: flex;
+    flex-direction: column; /* Para establecer la dirección de los elementos de arriba hacia abajo */
 }
 
-.Panel_admin{
-    width: 1500px;
+.Panel_admin {
+    z-index: 1; 
+    min-width: 1500px;
+    width: auto;
     height: 600px;
     background-color: #F7F7F7;
     position: relative;
     left: 400px;
     padding: 5px;
     color: #2A2573;
+    text-align: center;
 }
+.btn_crear,
+.btn_eliminar {
+    width: 120px;
+    height: 50px;
+    background-color: #3366CC;
+    color: #D9D9D9;
+    border: #3366CC;
+    border-radius: 7% 7% 7% 7%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;   
+}
+
+.btn_crear {
+    left: 100px;
+
+}
+
+.btn_eliminar {
+    right: 420px; 
+}
+
+
+.menu_central {
+    z-index: 2; 
+    width: auto;
+    min-width: 404px;
+    height: 600px;
+    background-color: #2A2573;
+    position: absolute;
+    padding: 5px;
+    color: #000000;
+}
+
+
+.lista_usuarios,.permisos {
+    z-index: 3; 
+    min-width: 440px;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    color: #2A2573;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.cuadrado{
+    min-width: 445px;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    background-color: #EAEAEA;
+    border-radius: 15px 0 0 15px;
+    align-items: center;
+    text-align: center;
+    color: #2A2573;
+}
+
+.borde{
+    position: absolute;
+    left: 440px;
+    height: auto;
+    border-left: solid #EAEAEA 50px ;
+    border-right: solid transparent 50px ;
+    border-bottom: solid transparent 50px ;
+    border-top: solid transparent 50px ;
+    
+}
+
+
+
 
 .Bordedown{
     color: #EAEAEA;
