@@ -108,21 +108,18 @@ article, p, .myDiv{
 .central {
     background-color: #2A2573;
     width: auto;
-    height: 900px;
+    min-height: 500px;
+    height: auto;
     position: relative;
     padding: 5px;
-    display: flex;
-    flex-direction: column; /* Para establecer la dirección de los elementos de arriba hacia abajo */
 }
 
 .Panel_admin {
     z-index: 1; 
-    min-width: 1500px;
     width: auto;
     height: 600px;
     background-color: #F7F7F7;
     position: relative;
-    left: 400px;
     padding: 5px;
     color: #2A2573;
     text-align: center;
@@ -141,19 +138,19 @@ article, p, .myDiv{
 }
 
 .btn_crear {
-    left: 100px;
+    left: 370px;
 
 }
 
 .btn_eliminar {
-    right: 420px; 
+    right: 50px; 
 }
 
 
 .menu_central {
     z-index: 2; 
     width: auto;
-    min-width: 404px;
+    min-width: 320px;
     height: 600px;
     background-color: #2A2573;
     position: absolute;
@@ -163,8 +160,8 @@ article, p, .myDiv{
 
 
 .lista_usuarios,.permisos {
-    z-index: 3; 
-    min-width: 440px;
+    z-index: 2; 
+    min-width: 280px;
     width: auto;
     height: 100px;
     text-align: center;
@@ -174,22 +171,23 @@ article, p, .myDiv{
 }
 
 .cuadrado{
-    min-width: 445px;
+    min-width: 325px;
     width: auto;
     height: 100px;
     position: absolute;
-    background-color: #EAEAEA;
+    background-color: #D9D9D9;
     border-radius: 15px 0 0 15px;
     align-items: center;
     text-align: center;
     color: #2A2573;
-}
 
+}
 .borde{
+    z-index: 1; 
     position: absolute;
-    left: 440px;
+    left: 320px;
     height: auto;
-    border-left: solid #EAEAEA 50px ;
+    border-left: solid #D9D9D9 50px ;
     border-right: solid transparent 50px ;
     border-bottom: solid transparent 50px ;
     border-top: solid transparent 50px ;
