@@ -114,6 +114,7 @@ article, p, .myDiv{
     color: #2A2573;
     text-align: center;
 }
+
 .btn_graficar,
 .btn_descargar {
     width: 120px;
@@ -137,6 +138,54 @@ article, p, .myDiv{
     right: 50px; 
 }
 
+label{
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+}
+  
+.start{
+    position: absolute;
+    top:100px;
+    left: 380px;
+}
+.startdate{
+    position: absolute;
+    top:120px;
+    left: 380px;
+}
+
+.end{
+    position: absolute;
+    top:100px;
+    left: 520px;
+}
+.enddate{
+    position: absolute;
+    top:120px;
+    left: 520px;
+}
+.op{
+    position: absolute;
+    top:100px;
+    left: 670px;
+}
+.Operador{
+    position: absolute;
+    top:120px;
+    left: 670px;
+}
+
+.Plan{
+    position: absolute;
+    top:100px;
+    left: 770px;
+}
+.plan_sel{
+    position: absolute;
+    top:120px;
+    left: 770px;
+}
 
 .menu_central {
     z-index: 2; 
@@ -149,7 +198,7 @@ article, p, .myDiv{
     color: #000000;
 }
 
-
+  
 .ver_historico,.tendencia {
     z-index: 2; 
     min-width: 280px;

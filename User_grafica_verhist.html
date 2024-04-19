@@ -54,6 +54,22 @@
             </div>
             <div class="Panel_admin">
                 <h1>Ver histórico</h1>
+                <label class="start">Fecha inicio:</label>
+                <input class="startdate" type="date" id="start" name="trip-start" min="2020-01-01" />
+                <label class="end">Fecha Final:</label>
+                <input class="enddate" type="date" id="end" name="trip-start" min="2020-01-01" />
+                <label class="op">operador:</label>
+                <select class="Operador" name="Operador">
+                    <option value="Claro">Claro</option>
+                    <option value="Tigo" selected>Tigo</option>
+                    <option value="Movistar">Movistar</option>
+                    <option value="WOM">WOM</option>
+                </select>
+                <label class="Plan">Plan:</label>
+                <select class="plan_sel" name="Operador">
+                    <option value="prepago">Prepago</option>
+                    <option value="postpago" selected>Postpago</option>
+                </select>
                 <button class="btn_graficar">Grafica</button>
                 <button class="btn_descargar">Descargar</button>
             </div>
