@@ -150,7 +150,7 @@ article, p, .myDiv{
 }
 
 
-.lista_usuarios,.permisos {
+.ver_historico,.tendencia {
     z-index: 2; 
     min-width: 280px;
     width: auto;
@@ -161,7 +161,7 @@ article, p, .myDiv{
     padding-bottom: 2px;
 }
 
-.cuadradoli{
+.cuadradohist{
     min-width: 325px;
     width: auto;
     height: 100px;
@@ -174,7 +174,7 @@ article, p, .myDiv{
 
 }
 
-.bordeli{
+.bordehist{
     z-index: 1; 
     position: absolute;
     left: 320px;
@@ -186,7 +186,7 @@ article, p, .myDiv{
     
 }
 
-.cuadradoper{
+.cuadradoten{
     min-width: 325px;
     width: auto;
     height: 100px;
@@ -198,7 +198,7 @@ article, p, .myDiv{
     color: #2A2573;
 
 }
-.bordeper{
+.bordeten{
     z-index: 1; 
     position: absolute;
     left: 320px;
