@@ -64,10 +64,10 @@ article, p, .myDiv{
 
 .btn_usuarios,.btn_cargar,.btn_prepro,.btn_graf{
     position: relative;
-    top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 120px;
+    top: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 150px;
     height: 40px;
     background-color: #D9D9D9;
     color: black;
@@ -75,6 +75,7 @@ article, p, .myDiv{
     border-radius: 7% 7% 7% 7%;
     cursor: pointer;
 }
+
 .btn_usuarios:hover{
     background-color: #2A2573;
     color: white;
