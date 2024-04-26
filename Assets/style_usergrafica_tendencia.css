@@ -47,6 +47,57 @@ article, p, .myDiv{
     position: relative;
     text-align: center;
 }
+.panel_cambiousr{
+    background-color: #2A2573;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    visibility: hidden;
+}
+
+
+h5{
+    font-family: 'Droid Sans', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px;
+}
+.cuadro_salir_usr{
+    background-color: #2A2573;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+.Salir_usr{
+    margin: 5px;
+    right: 0px;
+    height: 30px;
+    width: 130px;
+    position: absolute;
+    background-color: #2A2573;
+    border: #2A2573;
+    color: white;
+    cursor: pointer;
+}
+.cambiar_cuenta{
+    right: 0px;
+    height: 30px;
+    width: 130px;
+    background-color: #2A2573;
+    border: #2A2573;
+    color: white;
+    cursor: pointer;
+}
+.crcimg_usr{
+    width:150px;
+    height:30px;
+    left: 2px;
+    position: absolute;
+}
 
 .crcimg{
     width:270px;
