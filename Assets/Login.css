@@ -101,7 +101,7 @@ body{
 
 #footer{
     background-color: #3366CC;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
